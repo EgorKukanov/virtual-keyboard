@@ -19,6 +19,11 @@ for (let i = 0; i < keys.length; i++) {
     keys[i].setAttribute('keyname', keys[i].innerText);
     keys[i].setAttribute('lowerCaseName', keys[i].innerText.toLowerCase());
 }
+for (let i = 0; i < keys.length; i++) {
+    keys[i].addEventListener('click', function () {
+        input.value += this.innerText.toLowerCase();
+    });
+}
 
 addEventListener('keydown', function (element) {
     for (let i = 0; i < keys.length; i++) {
