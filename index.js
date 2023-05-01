@@ -1,19 +1,19 @@
 let input = document.querySelector('.text');
 let keys = document.querySelectorAll('.keys');
-let spaceKey = document.querySelector('.space_key');
-let shiftLeft = document.querySelector('.shift_left');
-let shiftRight = document.querySelector('.shift_right');
-let ctrlLeft = document.querySelector('.ctrl_left');
-let ctrlRight = document.querySelector('.ctrl_right');
-let altLeft = document.querySelector('.alt_left');
-let altRight = document.querySelector('.alt_right');
-let capsLockKey = document.querySelector('.caps_lock_key');
+let spaceKey = document.querySelector('.space-key');
+let shiftLeft = document.querySelector('.shift-left');
+let shiftRight = document.querySelector('.shift-right');
+let ctrlLeft = document.querySelector('.ctrl-left');
+let ctrlRight = document.querySelector('.ctrl-right');
+let altLeft = document.querySelector('.alt-left');
+let altRight = document.querySelector('.alt-right');
+let capsLockKey = document.querySelector('.caps-lock-key');
 let keyboard = document.querySelector('.keyboard');
-let arrowUp = document.querySelector('.arrow_up');
-let arrowLeft = document.querySelector('.arrow_left');
-let arrowDown = document.querySelector('.arrow_down');
-let arrowRight = document.querySelector('.arrow_right');
-let delKey = document.querySelector('.del_key');
+let arrowUp = document.querySelector('.arrow-up');
+let arrowLeft = document.querySelector('.arrow-left');
+let arrowDown = document.querySelector('.arrow-down');
+let arrowRight = document.querySelector('.arrow-right');
+let delKey = document.querySelector('.del-key');
 
 for (let i = 0; i < keys.length; i++) {
     keys[i].setAttribute('keyname', keys[i].innerText);

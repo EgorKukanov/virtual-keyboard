@@ -64,31 +64,31 @@ body {
   cursor: pointer;
 }
 
-.backspace_key {
+.backspace-key {
   background-color: #d8d8d8;
   width: 120px;
 }
 
-.tab_key {
+.tab-key {
   background-color: #d8d8d8;
   width: 90px;
 }
 
-.slash_key {
+.slash-key {
   width: 90px;
 }
 
-.caps_lock_key {
+.caps-lock-key {
   background-color: #d8d8d8;
   width: 108px;
 }
 
-.enter_key {
+.enter-key {
   background-color: #d8d8d8;
   width: 140px;
 }
 
-.shift_key {
+.shift-key {
   background-color: #d8d8d8;
   width: 124px;
 }
@@ -98,34 +98,34 @@ body {
   width: 100%;
 }
 
-.arrow_down {
+.arrow-down {
   background-color: #d8d8d8;
 }
 
-.arrow_up {
+.arrow-up {
   background-color: #d8d8d8;
 }
 
-.arrow_left {
+.arrow-left {
   background-color: #d8d8d8;
 }
-.arrow_right {
-  background-color: #d8d8d8;
-}
-
-.del_key {
+.arrow-right {
   background-color: #d8d8d8;
 }
 
-.win_key {
+.del-key {
   background-color: #d8d8d8;
 }
 
-.alt_key {
+.win-key {
   background-color: #d8d8d8;
 }
 
-.ctrl_key {
+.alt-key {
+  background-color: #d8d8d8;
+}
+
+.ctrl-key {
   background-color: #d8d8d8;
 }
 
